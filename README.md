@@ -1,6 +1,6 @@
 ﻿# Jokenpo-with-spring-boot
 
-🎮 Sobre o projeto
+#🎮 Sobre o projeto
 
 Aplicação backend desenvolvida com Spring Boot que simula uma rodada do jogo Pedra, Papel e Tesoura (Jokenpô).
 
@@ -14,7 +14,7 @@ Calcula o vencedor
 
 Retorna o resultado via endpoint HTTP
 
-🧱 Arquitetura
+#🧱 Arquitetura
 
 O projeto segue uma estrutura em camadas:
 
@@ -24,10 +24,10 @@ Service → contém a lógica do jogo
 
 Model → enum com as jogadas
 
-Fluxo:
+#Fluxo:
 
 Request → Controller → Game → Player/Bot → Winner → Response
-🛠️ Tecnologias utilizadas
+#🛠️ Tecnologias utilizadas
 
 ☕ Java 17+
 
@@ -56,3 +56,4 @@ mvnw.cmd spring-boot:run
 GET http://localhost:8080/game
 ✅ Exemplo de resposta
 Player: PAPEL | Bot: PEDRA | Resultado: Jogador venceu
+
